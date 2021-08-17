@@ -1,0 +1,23 @@
+tag: h1 --->>> Função: Define o título principal da página
+tag: footer --->>> Função: rodapé da página
+tag: header --->>> Função: define o cabeçalho da página
+tag: p --->>> Função: Essa é uma tag de parágrafo, ou seja, uma tag de texto
+tag: img --->>> Função: Adiciona uma imagem na página
+tag: h6 --->>> Função: Título de menor importância
+tag: h2 --->>> Função: Subtítulo da página
+tag: main --->>> Função: Define o conteúdo principal da página
+tag: body --->>> Função: Define todo o corpo do conteúdo da página
+tag: head --->>> Função: Responsável por passar informações para o navegador
+tag: a --->>> Função: Adiciona links na página
+tag: div --->>> Função: Realiza o aagrupamento dos conteúdos da página
+tag: section --->>> Função: Adiciona uma nova seção na página
+tag: title --->>> Função: Define o título da página na guia do navegador
+tag: figure --->>> Função: Adiciona uma figura/imagem na página
+tag: figcaption --->>> Função: Adiciona uma legenda para a imagem
+tag: nav --->>> Função: Responsável por criar uma parte de navegação na página
+tag: ul --->>> Função: Adiciona uma lista não ordenada (com bolinhas)
+tag: ol --->>> Função: Adiciona uma lista ordenada (com números)
+tag: li --->>> Função: Adiciona o elemento da lista
+tag: html --->>> Função: Responsável por definir que todo o conteúdo da página é HTML
+tag: !DOCTYPE html --->>> Função: Responsável por informar ao navegador a versão do HTML (neste caso, já é o HTML5)
+tag: button --->>> Função: Adiciona um botão na página
