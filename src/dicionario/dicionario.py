@@ -4,6 +4,7 @@ import io
 class DicionarioTags:
     def __init__(self):
         self.__arquivo = io.open("tags.txt", "r", encoding='utf8')
+        self.__arquivo_a = io.open("tags.txt", "a", encoding="utf8")
 
     def mostra_todas_as_tags(self):
         with self.__arquivo as arquivo:
@@ -11,9 +12,8 @@ class DicionarioTags:
                 print(linha)
 
     def adiciona_tag(self, tag):
-        arquivo = io.open("tags.txt", "a", encoding="utf8")
         funcao = str(input("Digite a função desta tag: "))
-        with arquivo:
+        with self.__arquivo_a as arquivo:
             arquivo.write("\n")
             arquivo.write(f"tag: {tag} --->>> Função: {funcao}")
             print(f"Tag: '{tag}' adicionada com sucesso!!")
